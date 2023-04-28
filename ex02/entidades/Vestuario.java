@@ -18,6 +18,7 @@ public class Vestuario extends Item {
     }
 	
     //o valor do imposto e mais 7% do valor vestuário.
+    @Override
     public float calcularPreco() {
     	float resultado;
     	resultado = (preco + (preco*imposto) + (preco*0.07f));
