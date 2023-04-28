@@ -28,6 +28,7 @@ public class Livro extends Item {
         System.out.println("Ano de publicação: " + anoPublicacao);
     }
 
+    //valor do imposto e mais 2% do valor do livro
     public float calcularPreco() {
     	float resultado;
     	
