@@ -29,6 +29,7 @@ public class Livro extends Item {
     }
 
     //valor do imposto e mais 2% do valor do livro
+    @Override
     public float calcularPreco() {
     	float resultado;
     	
