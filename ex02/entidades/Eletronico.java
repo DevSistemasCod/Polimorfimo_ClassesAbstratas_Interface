@@ -1,8 +1,8 @@
 package entidades;
 
 public class Eletronico extends Item {
-	private String tensao;
-	
+    private String tensao;
+     	
     public Eletronico(int id, String nome, float  preco, float imposto, String tensao) {
         super(id, nome, preco, imposto);
         this.tensao = tensao;
