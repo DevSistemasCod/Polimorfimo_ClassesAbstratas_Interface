@@ -14,6 +14,7 @@ public class Eletronico extends Item {
         System.out.println("Tensao: " + tensao);
     }
     
+    //valor do imposto e mais 8% do valor eletrônico
     public float calcularPreco() {
     	float resultado;
     	resultado = (preco + (preco*imposto) + (preco*0.08f));
