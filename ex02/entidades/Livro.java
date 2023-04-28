@@ -2,9 +2,9 @@ package entidades;
 
 
 public class Livro extends Item {
-	private int numPaginas;
+    private int numPaginas;
     private int anoPublicacao;
-	private String autor;
+    private String autor;
     private String tema;
     private String editora;
     
